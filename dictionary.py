@@ -23,5 +23,19 @@ programming_dict["positive"]="You should be positive every time"
 #Looping through the dictionary
 for key in programming_dict:
     print(key)  #By defaulyt loops inside dict. would return KEYS().
-    print(programming_dict[key])
+    print(programming_dict[key])  
     print(f"{key}:{programming_dict[key]}")
+
+#Nesting: 
+capitals={
+    "france":"Paris",
+    "Germany":"Berlin"
+}
+
+#Nesting a List in a Dictionary
+travel_log={
+    "Visited": {"France":5,"Berlin":10,"India":15, "USA":5},
+    "Not Visited": ['New_Zealand','Tokyo','China','Korea','Australia']
+}
+
+print(travel_log)
